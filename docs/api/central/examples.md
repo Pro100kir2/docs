@@ -67,7 +67,7 @@ curl -H "Authorization: token $ZT_TOKEN" \
     .ipAssignments[0],
     .name
   ]' \
-  | jq -rs '.[] | @csv
+  | jq -rs '.[] | @csv'
 ```
 
 </TabItem>
